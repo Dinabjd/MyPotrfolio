@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{let e=document.querySelectorAll(".progress");e.forEach(e=>{let t=e.style.width;e.style.width="0",setTimeout(()=>{e.style.width=t},100)});let t=document.querySelectorAll(".circle-progress");t.forEach(e=>{let t=e.getAttribute("data-progress");e.style.setProperty("--progress",`${t}%`)})});
